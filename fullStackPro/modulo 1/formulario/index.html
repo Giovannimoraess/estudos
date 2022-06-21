@@ -12,14 +12,57 @@
 
     <form>
         <label for="firstName">Primeiro nome</label>
-        <input type="text" id="firstName" name="firstName" placeholder="Primeiro nome">
-
-        <br><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Primeiro nome" required> <br><br>
         
         <label for="overName">Sobrenome</label>
-        <input type="text" id="overName" name="overName" placeholder="Sobrenome">
+        <input type="text" id="overName" name="overName" placeholder="Sobrenome" required> <br><br>
         
-        <br><br>
+
+        <!--TIPO RADIO-->
+        <label>
+            <strong>Qual seu nível de programação?</strong>
+        </label>
+        
+        <label>
+            <input type="radio" name="nivel" value="iniciante">Iniciante
+        </label>
+        <label>
+            <input type="radio" name="nivel" value="intermediaro">Intermediario
+        </label>
+        <label>
+            <input type="radio" name="nivel" value="avancado">Avançado
+        </label><br><br>
+        
+        <!-- Tipo Select para selecionar itens-->
+        <label>
+            <strong> Nível de escolaridade</strong>
+        </label>
+        
+        <select>
+            <option selected disabled value="">Selecione</option>
+            <option>Educação básica</option>
+            <option>Ensino médio</option>
+            <option>Ensino superior</option>
+            <option>Pós graduação</option>
+        </select> <br><br>
+        
+        <!--TIPO CHECKBOX-->
+
+        <label>
+            <strong>Selecione as tecnologias que você conhece</strong>
+        </label>
+
+        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+        <label for="tecnologia1">HTML</label>
+
+        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+        <label for="tecnologia2">CSS</label>
+
+        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+        <label for="tecnologia3">JavaScript</label>
+
+        <input type="checkbox" id="tecnologia3" name="tecnologia4" value="Python">
+        <label for="tecnologia4">Python</label> <br><br>
 
         <input type="submit" value="Cadastrar">
     </form>
