@@ -1,0 +1,22 @@
+.primeiro-h1 {
+    /* color: blue; */
+    /* color: rgb(, ,) */
+    /* color: rgba( , , , ) */
+    color: #0000FF;
+    font-family: 'roboto', sans-serif;
+}
+
+#segundo-h1 {
+    color: rgb(255, 0, 0);
+    font-family: 'roboto', sans-serif;
+}
+
+.terceiro-h1 {
+    color: rgba(0, 255, 0, 1);
+    font-family: 'roboto', sans-serif;
+}
+
+#quarto-h1 {
+    color: #f0f;
+    font-family: 'roboto', sans-serif;
+}
